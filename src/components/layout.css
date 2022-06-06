@@ -123,6 +123,7 @@ hr {
 .section-heading {
   display: flex;
   align-items: center;
+  color: var(--color-primary);
   position: relative;
   margin: 5px 0 30px;
   width: 100%;
@@ -155,12 +156,5 @@ hr {
   border-radius: 50% 50%;
   box-shadow: 10px 5px 0 0 var(--color-primary);
   /* width: 450px; */
-  
-}
-
-/* Experience Page */
-
-.experience-content {
-  display: flex;
   
 }

@@ -1,0 +1,47 @@
+.experience-content {
+    display: flex;
+    color: blueviolet;
+}
+
+.job-tab{
+    width: 175px;
+    height: 100px;
+    color: var(--color-text) ;
+    border-left: 3px solid var(--color-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: var(--font-md);
+}
+
+.active-tab{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--color-primary);
+    border-left: 3px solid var(--color-primary);
+}
+
+.job-panel {
+    color: var(--color-text);
+    font-size: var(--font-sm);
+    margin: 10px 30px;
+    padding-left: 20px;
+}
+
+.job-title{
+    font-size: var(--font-lg);
+    font-weight: 500;
+}
+.job-employment{
+    font-size: var(--font-md);
+    font-weight: 500;
+}
+
+.job-panel li {
+ font-weight: 500;
+ line-height: 1.5rem;
+ margin-bottom: 15px;
+ padding-left: 5px;
+ max-width: 475px;
+}
