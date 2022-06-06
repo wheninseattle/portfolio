@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Weston Norwood | LEAP Hopeful`,
+    description: `A portfolio page to highlight the experience, skills, and passion I can bring to your team.`,
+    author: `Weston Summers Norwood`,
+    siteUrl: `http://www.westonnorwood.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
