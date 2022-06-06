@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,15 +10,37 @@ const AboutPage = () => {
     <Layout>
       <Seo title="About" />
       <div className="section">
-      <div className="section-heading">About</div>
-      <div className="section-content">
+        <div className="section-heading">About</div>
+        <div className="section-content">
           <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa, ipsam, deserunt adipisci dolorum asperiores tempore possimus dicta quae rerum in aut architecto beatae repellat delectus incidunt illo qui. Aspernatur vitae enim repellendus harum nulla sed earum hic consequatur provident ut aperiam sit id mollitia libero dolor esse nesciunt iusto laudantium est illo qui suscipit, vel sapiente. Neque mollitia magni nobis minus animi veritatis et illo voluptas, iusto perferendis provident doloribus quisquam accusantium repellendus deleniti. Odit aspernatur animi aperiam cupiditate architecto dolorem error adipisci ipsa sint earum sit doloribus esse, quo aliquid omnis, maxime numquam non, accusamus facilis veritatis minus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              ipsa, ipsam, deserunt adipisci dolorum asperiores tempore possimus
+              dicta quae rerum in aut architecto beatae repellat delectus
+              incidunt illo qui. Aspernatur vitae enim repellendus harum nulla
+              sed earum hic consequatur provident ut aperiam sit id mollitia
+              libero dolor esse nesciunt iusto laudantium est illo qui suscipit,
+              vel sapiente. Neque mollitia magni nobis minus animi veritatis et
+              illo voluptas, iusto perferendis provident doloribus quisquam
+              accusantium repellendus deleniti. Odit aspernatur animi aperiam
+              cupiditate architecto dolorem error adipisci ipsa sint earum sit
+              doloribus esse, quo aliquid omnis, maxime numquam non, accusamus
+              facilis veritatis minus.
+            </p>
           </div>
+        <StaticImage 
+        className="about-image"
+        src="../images/weston-photo.jpg"
+        alt="Weston Headshot"
+        width={450}
+        quality={100}
+        placeholder={'blurred'}
+        formats={['AUTO','webp']}
+        layout={'constrained'}
+        aspectRatio={1/1}
+        />
+        </div>
       </div>
-
-      </div>
-
     </Layout>
   )
 }

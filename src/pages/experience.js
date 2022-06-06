@@ -8,6 +8,12 @@ const ExperiencePage = () => {
   return (
     <Layout>
       <Seo title="Experience" />
+      <div className="section">
+        <div className="section-heading">Experience</div>
+        <div className="section-content">
+          
+        </div>
+      </div>
     </Layout>
   )
 }

@@ -1,10 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import {IconLogo} from '../../assets/icons/IconLogo'
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-    <Link to='/'>W</Link>
+    <Link to='/'>
+    <IconLogo className={'icon-home'}/>
+
+    </Link>
     <ul>
         <li>
             <Link to='/about'>About</Link>
