@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/westonnorwood",
   siteMetadata: {
     title: `Weston Norwood | LEAP Hopeful`,
     description: `A portfolio page to highlight the experience, skills, and passion I can bring to your team.`,
