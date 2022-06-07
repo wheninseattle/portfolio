@@ -3,7 +3,7 @@ module.exports = {
     title: `Weston Norwood | LEAP Hopeful`,
     description: `A portfolio page to highlight the experience, skills, and passion I can bring to your team.`,
     author: `Weston Summers Norwood`,
-    siteUrl: `http://www.westonnorwood.com`,
+    siteUrl: `http://www.westonnorwood.dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Weston Norwood Portfolio`,
-        short_name: `Weston's Portfolio`,
+        short_name: `Weston Portfolio`,
         start_url: `/`,
         background_color: `#003F48`,
         // This will impact how browsers show your PWA/website
