@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: "/westonnorwood",
   siteMetadata: {
     title: `Weston Norwood | LEAP Hopeful`,
     description: `A portfolio page to highlight the experience, skills, and passion I can bring to your team.`,
     author: `Weston Summers Norwood`,
-    siteUrl: `http://www.westonnorwood.com`,
+    siteUrl: `http://www.westonnorwood.dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,7 +22,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Weston Norwood Portfolio`,
-        short_name: `Weston's Portfolio`,
+        short_name: `Weston Portfolio`,
         start_url: `/`,
         background_color: `#003F48`,
         // This will impact how browsers show your PWA/website
@@ -36,7 +37,8 @@ module.exports = {
       name: `src`,
       path: `${__dirname}/src/`,
     }
-  }, 'gatsby-transformer-remark'
+  }, 'gatsby-transformer-remark',
+  
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
