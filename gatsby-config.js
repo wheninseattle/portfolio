@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/westonnorwood",
   siteMetadata: {
     title: `Weston Norwood | LEAP Hopeful`,
     description: `A portfolio page to highlight the experience, skills, and passion I can bring to your team.`,
@@ -36,7 +37,8 @@ module.exports = {
       name: `src`,
       path: `${__dirname}/src/`,
     }
-  }, 'gatsby-transformer-remark'
+  }, 'gatsby-transformer-remark',
+  
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
