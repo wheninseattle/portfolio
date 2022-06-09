@@ -150,7 +150,11 @@ hr {
 }
 
 }
-
+/* Home Page */
+.intro-graphic{
+  max-height: 100px;
+  width: auto;
+}
 /* About Page */
 .about-image{
   border-radius: 50% 50%;

@@ -30,7 +30,11 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
           maxWidth: `var(--size-content)`,
           padding: `var(--size-gutter)`,
-        }}
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'flex-end',
+          alignItems: "center",
+        }}  
       >
         <Navbar/>
         <main>{children}</main>
@@ -38,6 +42,8 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
+            position: 'absolute',
+            bottom: 0,
           }}
         >
           © {new Date().getFullYear()} &middot; Weston Norwood
