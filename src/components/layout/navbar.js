@@ -1,34 +1,33 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import {IconLogo} from '../../assets/icons/IconLogo'
+import React from "react"
+import { Link } from "gatsby"
+import { IconLogo } from "../../assets/icons/IconLogo"
+import pdf from "../../assets/files/20220525-Resume.pdf"
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-    <Link to='/'>
-    <IconLogo className={'icon-home'}/>
-
-    </Link>
-    <ul>
+    <div className="navbar">
+      <Link to="/">
+        <IconLogo className={"icon-home"} />
+      </Link>
+      <ul>
         <li>
-            <Link to='/about'>About</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
-            <Link to='/experience'>Experience</Link>
+          <Link to="/experience">Experience</Link>
         </li>
         <li>
-            <Link to='/work'>Work</Link>
+          <Link to="/work">Work</Link>
         </li>
         <li>
-            <Link to='/process'>Process</Link>
+          <Link to="/process">Process</Link>
         </li>
         <li>
-            <Link to='/contact'>Contact</Link>
+          <Link to={pdf} target="_blank" rel="noreferrer">
+            Resumé
+          </Link>
         </li>
-        <li>
-            <Link to='/resume'>Resumé</Link>
-        </li>
-    </ul>
+      </ul>
     </div>
   )
 }
