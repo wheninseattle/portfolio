@@ -3,10 +3,9 @@ import styled from "styled-components"
 import Icon from "./Icon"
 
 const Svg = styled(Icon)`
-  height: 50vh;
-  width: auto;
+  height: auto;
+  width: 60vw;
   color: var(--color-primary);
-  margin: 0 auto;
 `
 
 export const Shuksan = ({ className }) => {
