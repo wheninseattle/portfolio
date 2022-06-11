@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'flex-end',
-          alignItems: "center",
+          alignItems: "center", 
         }}  
       >
         <Navbar/>
@@ -42,8 +42,8 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
-            position: 'absolute',
-            bottom: 0,
+            // position: 'absolute',
+            // bottom: 0,
           }}
         >
           © {new Date().getFullYear()} &middot; Weston Norwood

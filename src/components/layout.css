@@ -151,10 +151,18 @@ hr {
 
 }
 /* Home Page */
-.intro-graphic{
-  max-height: 100px;
-  width: auto;
+
+.welcome-content {
+  width: 65% ;
 }
+
+.welcome {
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+/* .intro-graphic{
+  max-height: 100px;
+} */
 /* About Page */
 .about-image{
   border-radius: 50% 50%;

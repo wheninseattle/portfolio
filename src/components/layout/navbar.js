@@ -27,7 +27,7 @@ const Navbar = () => {
             Resumé
           </Link>
         </li>
-      </ul>
+      </ul> 
     </div>
   )
 }
