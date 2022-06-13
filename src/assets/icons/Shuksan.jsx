@@ -3,8 +3,6 @@ import styled from "styled-components"
 import Icon from "./Icon"
 
 const Svg = styled(Icon)`
-  height: auto;
-  width: 60vw;
   color: var(--color-primary);
 `
 

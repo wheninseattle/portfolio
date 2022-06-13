@@ -14,18 +14,11 @@ const AboutPage = () => {
         <div className="section-content">
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              ipsa, ipsam, deserunt adipisci dolorum asperiores tempore possimus
-              dicta quae rerum in aut architecto beatae repellat delectus
-              incidunt illo qui. Aspernatur vitae enim repellendus harum nulla
-              sed earum hic consequatur provident ut aperiam sit id mollitia
-              libero dolor esse nesciunt iusto laudantium est illo qui suscipit,
-              vel sapiente. Neque mollitia magni nobis minus animi veritatis et
-              illo voluptas, iusto perferendis provident doloribus quisquam
-              accusantium repellendus deleniti. Odit aspernatur animi aperiam
-              cupiditate architecto dolorem error adipisci ipsa sint earum sit
-              doloribus esse, quo aliquid omnis, maxime numquam non, accusamus
-              facilis veritatis minus.
+          A career in architecture kindled a passion for building tools that
+          solve problems, integrate technologies, and help people. I'm a new
+          software engineer driven to contriute to elegant solutions with user
+          experience as a guiding principal. I thrive in diverse, collaborative
+          spaces, and I am fueled by curiosity and focused determination.
             </p>
           </div>
           <div className="about-image">

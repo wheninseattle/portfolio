@@ -18,13 +18,13 @@ const IndexPage = () => (
           <br />
           Let's build something!
         </h2>
-        <p>
+        {/* <p>
           A career in architecture kindled a passion for building tools that
           solve problems, integrate technologies, and help people. I'm a new
           software engineer driven to contriute to elegant solutions with user
-          experience as a guiding principal.. I thrive in diverse, collaborative
+          experience as a guiding principal. I thrive in diverse, collaborative
           spaces, and I am fueled by curiosity and focused determination.
-        </p>
+        </p> */}
       </div>
     </div>
     <div className="intro-graphic-container">
