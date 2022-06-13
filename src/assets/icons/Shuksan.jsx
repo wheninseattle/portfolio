@@ -95,13 +95,13 @@ export const Shuksan = ({ className }) => {
         fill="var(--color-text)"
         transform="scale(.76546) rotate(-78.257 838.65 -46.783)"
       ></circle>
-      <path
+      {/* <path
         fill="none"
         stroke="var(--color-text)"
         strokeWidth=".25"
         d="M150.221 68.918s66.959-15.312 139.366-15.831"
         transform="translate(652.514 82.6)"
-      ></path>
+      ></path> */}
       <circle
         cx="641.709"
         cy="208.269"

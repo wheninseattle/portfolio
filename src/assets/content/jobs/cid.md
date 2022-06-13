@@ -9,4 +9,3 @@ url: 'https://cid.be.uw.edu/'
 
 - Co-developed tools for assessing the performance of the Bullitt Center building on Capital Hill. Utilized Beautiful Soup to automate the collection of weather data from the Wunderground API, and Pandas to clean the data and resample it to match the timeframe of data from the building’s sensors.
 - Automated the capture and processing of HDR images in The Bullitt Center to analyze daylighting levels in various spaces.
-npm
