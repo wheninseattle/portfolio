@@ -8,7 +8,7 @@ import JobTab from "../components/experience/JobTab"
 
 // Styling
 import {
-  experienceContent,
+  experienceContent, jobTabs,
   jobTab,activeTab,jobPanel
 } from "../components/experience/experience.module.css"
 import JobPanel from "../components/experience/JobPanel"
@@ -26,7 +26,7 @@ const ExperiencePage = ({ data }) => {
       <div className={"section"}>
         <div className="section-heading">Experience</div>
         <div className={experienceContent}>
-          <ul>
+          <ul className={jobTabs}>
             {jobs.map(({ node },i) => {
               const jobInfo = node.frontmatter
               const {company} =jobInfo;

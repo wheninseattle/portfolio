@@ -32,18 +32,19 @@ const Layout = ({ children }) => {
           padding: `var(--size-gutter)`,
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'flex-end',
           alignItems: "center", 
+          minHeight: "100vh"
         }}  
       >
         <Navbar/>
-        <main>{children}</main>
+        <main style={{flexGrow: 1}}>{children}</main>
         <footer
           style={{
+            // display: 'block',
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
-            // position: 'absolute',
-            // bottom: 0,
+            position: 'absolute',
+            bottom: 0,
           }}
         >
           © {new Date().getFullYear()} &middot; Weston Norwood

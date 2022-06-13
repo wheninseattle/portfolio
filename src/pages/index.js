@@ -27,7 +27,7 @@ const IndexPage = () => (
         </p>
       </div>
     </div>
-    <div className="intro-graphic">
+    <div className="intro-graphic-container">
       <Shuksan className="intro-graphic" />
     </div>
   </Layout>

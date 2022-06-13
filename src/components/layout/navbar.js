@@ -19,9 +19,9 @@ const Navbar = () => {
         <li>
           <Link to="/work">Work</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/process">Process</Link>
-        </li>
+        </li> */}
         <li>
           <Link to={pdf} target="_blank" rel="noreferrer">
             Resumé
