@@ -28,17 +28,19 @@ const AboutPage = () => {
               facilis veritatis minus.
             </p>
           </div>
-        <StaticImage 
-        className="about-image"
-        src="../images/weston-photo.jpg"
-        alt="Weston Headshot"
-        width={450}
-        quality={100}
-        placeholder={'blurred'}
-        formats={['AUTO','webp']}
-        layout={'constrained'}
-        aspectRatio={1/1}
-        />
+          <div className="about-image">
+            <StaticImage
+              className="about-image"
+              src="../images/weston-photo.jpg"
+              alt="Weston Headshot"
+              width={450}
+              quality={100}
+              placeholder={"blurred"}
+              formats={["AUTO", "webp"]}
+              layout={"constrained"}
+              aspectRatio={1 / 1}
+            />
+          </div>
         </div>
       </div>
     </Layout>
