@@ -2,6 +2,8 @@
     display: flex;
 }
 
+
+
 .job-tabs {
 display: flex;
 flex-direction: column;
@@ -56,13 +58,33 @@ flex-direction: column;
         justify-content: center;
         align-items: center;
     };
+    .experience-content ul{
+        display: flex;
+        list-style: none;
+        padding-inline-start: 0px;
+    }
     .job-tabs {
         flex-direction: row;
+        padding-inline-start: 0px;
     }
+    .job-tabs ul {
+        padding-inline-start: 0px;
+        flex-direction: row;
+    }
+
     .job-tab {
-        width: 100px;
+        width: 33%;
         height: 75px;
-        display: block;
+        border-left: none;
+        border-top: 3px solid var(--color-text);
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .active-tab{
+        border-left: none;
+        border-top: 3px solid var(--color-primary);
     }
     
     ul {
