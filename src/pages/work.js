@@ -8,6 +8,10 @@ const WorkPage = () => {
   return (
     <Layout>
       <Seo title="Work" />
+      <div className="section">
+        <div className="section-heading">Work</div>
+        <p>Coming soon!</p>
+      </div>
     </Layout>
   )
 }
