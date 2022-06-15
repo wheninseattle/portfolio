@@ -22,11 +22,11 @@ const Navbar = () => {
         {/* <li>
           <Link to="/process">Process</Link>
         </li> */}
-        <li>
+        {/* <li>
           <Link to={pdf} target="_blank" rel="noreferrer">
             Resumé
           </Link>
-        </li>
+        </li> */}
       </ul> 
     </div>
   )
