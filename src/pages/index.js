@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div className="section">
       <div className="welcome-content">
         <h2 className="welcome">
-          Hi I'm,{" "}
+          Hi, I'm{" "}
           <span style={{ color: "var(--color-primary)" }}>Weston Norwood</span>
           .
           <br />
