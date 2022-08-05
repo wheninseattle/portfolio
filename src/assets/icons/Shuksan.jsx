@@ -33,7 +33,7 @@ export const Shuksan = ({ className }) => {
       <path
         fill="none"
         stroke="var(--color-text)"
-        strokeWidth="1"
+        strokeWidth="1.5"
         d="M404.34 601.037s98.266-9.765 160.381-32.489c46.788-17.117 277.284-98.937 370.643-136.332 90.796-36.37 140.036-64.566 140.036-64.566"
         transform="rotate(4.565 2554.178 632.146)"
       ></path>
