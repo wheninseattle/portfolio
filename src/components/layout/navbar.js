@@ -3,15 +3,25 @@ import { Link } from "gatsby"
 import { IconLogo } from "../../assets/icons/IconLogo"
 import pdf from "../../assets/files/20220525-Resume.pdf"
 
+
+const navbarIcon =
+  (window.location.pathname === '/') ? (
+    <IconLogo className={"icon-home"} />
+  ) : (
+    <Link to="/">
+      <IconLogo className={"icon-home"} />
+    </Link>
+  )
+
+
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Link to="/">
-        <IconLogo className={"icon-home"} />
-      </Link>
+      {navbarIcon}
       <ul>
         <li>
           <Link to="/about">About</Link>
+          {console.log(window.location.pathname === '/')}
         </li>
         <li>
           <Link to="/experience">Experience</Link>
@@ -27,7 +37,7 @@ const Navbar = () => {
             Resumé
           </Link>
         </li> */}
-      </ul> 
+      </ul>
     </div>
   )
 }
