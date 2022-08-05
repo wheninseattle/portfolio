@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import ProjectPanel from "../components/work/projectPanel"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -11,6 +12,7 @@ const WorkPage = () => {
       <div className="section">
         <div className="section-heading">Work</div>
         <p>Coming soon!</p>
+        <ProjectPanel/>
       </div>
     </Layout>
   )
