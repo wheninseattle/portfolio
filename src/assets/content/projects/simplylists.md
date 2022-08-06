@@ -1,12 +1,11 @@
 ---
 date: '06-15-2022'
-name: 'Community Fridges'
-activeTime: 'June 2022 - Present'
-url: ''
+name: 'Simply Lists'
+employed: 'June 2022 - Present'
 github: 'https://github.com/CollectiveFocus/CFM_Frontend'
 stack: 'Next.js, Leaflet, Material-UI, Formik'
-featuredImage: ''
-description: 'A webapp for directing people in need to a network of community refrigerators in NYC. The platform also empowers volunteers to update the status of a fridge include photos of recent contributions'
+featuredImage: '/images/projects/DSC_2409.jpg'
+description: ''
 ---
 
 - Collaborated with a small team of experienced developers to create a web application for a network of over 100 community refridgerators throughout NYC.
