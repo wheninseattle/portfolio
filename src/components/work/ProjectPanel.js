@@ -1,14 +1,11 @@
 import React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
-import { projectPanel,projectPanelRow, projectVideo,projectInformation,projectName,projectDescription,projectStack } from './work.module.css';
-import TestImage from '../../images/projects/DSC_2409.jpg';
+import { projectVideo,projectInformation,projectName,projectDescription,projectStack } from './work.module.css';
 import FridgeVideo from '../../images/projects/CommunityFridgeMap.mp4';
-import { GatsbyImage } from 'gatsby-plugin-image';
 const ProjectPanel = ({ projectInfo }) => {
     const { name, activeTime, url, github, stack, description, featuredImage } = projectInfo.frontmatter
 
     return (
-        <div className={featuredImage===''? 'projectPanel projectPanelRow' : 'projectPanel'}>
+        <div className={featuredImage===''? 'project-panel project-panel-row' : 'project-panel'}>
             <div className={projectInformation}>
                 <div className={projectName}>
                     {name}

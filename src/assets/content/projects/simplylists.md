@@ -1,9 +1,9 @@
 ---
 date: '06-15-2022'
 name: 'Simply Lists'
-employed: 'June 2022 - Present'
-github: 'https://github.com/CollectiveFocus/CFM_Frontend'
-stack: 'Next.js, Leaflet, Material-UI, Formik'
+employed: 'May 2022 - June 2022'
+github: 'https://github.com/wheninseattle/simply-lists'
+stack: 'MongoDB, Express, React, Heroku'
 featuredImage: '/images/projects/DSC_2409.jpg'
 description: ''
 ---
