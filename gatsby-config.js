@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Weston Norwood | LEAP Hopeful`,
+    title: `Weston Norwood | Portfolio`,
     description: `A portfolio page to highlight the experience, skills, and passion I can bring to your team.`,
     author: `Weston Summers Norwood`,
     siteUrl: `http://www.westonnorwood.dev`,
@@ -24,9 +24,6 @@ module.exports = {
         short_name: `Weston Portfolio`,
         start_url: `/`,
         background_color: `#003F48`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/weston-icon.svg`, // This path is relative to the root of the site.
       },
@@ -37,9 +34,5 @@ module.exports = {
       path: `${__dirname}/src/`,
     }
   }, 'gatsby-transformer-remark',
-  
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
