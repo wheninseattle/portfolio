@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import ProjectPanel from "../components/work/projectPanel"
+import ProjectPanel from "../components/work/ProjectPanel"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"

@@ -8,7 +8,7 @@ const ProjectPanel = ({ projectInfo }) => {
     const { name, activeTime, url, github, stack, description, featuredImage } = projectInfo.frontmatter
 
     return (
-        <div className={featuredImage===''? 'projectPanel projectPanelRow' : 'project panel'}>
+        <div className={featuredImage===''? 'projectPanel projectPanelRow' : 'projectPanel'}>
             <div className={projectInformation}>
                 <div className={projectName}>
                     {name}
