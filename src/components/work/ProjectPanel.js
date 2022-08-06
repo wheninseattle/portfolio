@@ -19,7 +19,7 @@ const ProjectPanel = ({ projectInfo }) => {
                 </div>
 
             </div>
-            {name === 'Community Fridges' ? <video className={projectVideo} autoplay muted loop controls>
+            {name === 'Community Fridges' ? <video className={projectVideo} autoPlay muted loop controls>
                 <source src={FridgeVideo} type='video/mp4' />
             </video> : null}
         </div>
