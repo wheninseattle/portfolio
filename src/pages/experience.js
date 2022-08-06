@@ -17,13 +17,14 @@ const ExperiencePage = ({ data }) => {
   const [activeJob, setActiveJob] = useState(0)
 
   const jobs = data.jobs.edges;
+  console.table(jobs)
   const onActivateJob = (i) => {
     setActiveJob(i)
   }
   return (
     <Layout>
       <Seo title="Experience" />
-      <div className={"section"}>
+      <div className="section">
         <div className="section-heading">Experience</div>
         <div className={experienceContent}>
           <ul className={jobTabs}>
@@ -49,6 +50,7 @@ const ExperiencePage = ({ data }) => {
     </Layout>
   )
 }
+export default ExperiencePage
 
 export const data = graphql`
   {
@@ -73,4 +75,3 @@ export const data = graphql`
   }
 `
 
-export default ExperiencePage

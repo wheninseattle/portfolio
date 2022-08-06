@@ -14,11 +14,11 @@ const AboutPage = () => {
         <div className="section-content">
           <div>
             <p>
-          A career in architecture kindled a passion for building tools that
-          solve problems, integrate technologies, and help people. I'm a new
-          software engineer driven to contriute to elegant solutions with user
-          experience as a guiding principal. I thrive in diverse, collaborative
-          spaces, and I am fueled by curiosity and focused determination.
+              A career in architecture kindled a passion for building tools that
+              solve problems, integrate technologies, and help people. I'm a new
+              software engineer driven to contribute to elegant solutions with user
+              experience as a guiding principal. I thrive in diverse, collaborative
+              spaces, and I am fueled by curiosity and focused determination.
             </p>
           </div>
           <div className="about-image">
