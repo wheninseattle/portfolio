@@ -20,13 +20,16 @@
     flex-direction: row;
 }
 
-.project-info {
+.project-information {
     display: flex;
 }
 
 .project-name {
     font-size: 1.5rem;
     font-weight: 600;
+}
+.project-description {
+    font-size: .75rem;
 }
 
 .project-stack {
